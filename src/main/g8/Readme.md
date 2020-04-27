@@ -1,6 +1,6 @@
 # $name;format="Camel"$ 
 
-The `apidoc` definition are defined in `conf/apidocDefinitions`.
+The `apidoc` definitions are documented in `conf/apidocDefinitions`.
 And the configuration in the `build.sbt` has been tweaked in order to serve the generated documentation.
 You can get more information on this [page][sbt-apidoc]
 
