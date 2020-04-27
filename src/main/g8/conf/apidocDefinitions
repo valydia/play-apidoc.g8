@@ -1,0 +1,53 @@
+// ------------------------------------------------------------------------------------------
+// General apiDoc documentation blocks and old history blocks.
+// ------------------------------------------------------------------------------------------
+
+// ------------------------------------------------------------------------------------------
+// Current Errors.
+// ------------------------------------------------------------------------------------------
+
+/**
+ * @apiDefine CreateUserError
+ * @apiVersion 0.2.0
+ *
+ * @apiError NoAccessRight Only authenticated Admins can access the data.
+ * @apiError UserNameTooShort Minimum of 5 characters required.
+ *
+ * @apiErrorExample  Response (example):
+ *     HTTP/1.1 400 Bad Request
+ *     {
+ *       "error": "UserNameTooShort"
+ *     }
+ */
+
+  /**
+   * @apiDefine UserNotFoundError
+   * @apiError UserNotFound The id of the User was not found.
+   * @apiErrorExample UserNotFound:
+   *     HTTP/1.1 404 Not Found
+   *     {
+   *       "error": "UserNotFound"
+   *     }
+   */
+
+  /**
+   * @apiDefine UserBadRequestError
+   * @apiError UserBadRequest Invalid firstname or lastname.
+   *
+   * @apiErrorExample UserBadRequest:
+   *     HTTP/1.1 400 Not Found
+   *     {
+   *       "error": "UserBadRequest"
+   *     }
+   */
+
+  /**
+   * @apiDefine UserAlreadyExistsError
+   * @apiError UserAlreadyExists The user already exits.
+   *
+   * @apiErrorExample UserAlreadyExists:
+   *     HTTP/1.1 409 Not Found
+   *     {
+   *       "error": "user already exist"
+   *     }
+   */
