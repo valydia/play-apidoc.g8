@@ -1,0 +1,40 @@
+// ------------------------------------------------------------------------------------------
+// General apiDoc documentation blocks and old history blocks.
+// ------------------------------------------------------------------------------------------
+
+// ------------------------------------------------------------------------------------------
+// Current Errors.
+// ------------------------------------------------------------------------------------------
+
+
+  /**
+   * @apiDefine UserNotFoundError
+   * @apiError UserNotFound The id of the User was not found.
+   * @apiErrorExample UserNotFound:
+   *     HTTP/1.1 404 Not Found
+   *     {
+   *       "error": "User not found"
+   *     }
+   */
+
+  /**
+   * @apiDefine UserBadRequestError
+   * @apiError UserBadRequest Invalid firstname or lastname.
+   *
+   * @apiErrorExample UserBadRequest:
+   *     HTTP/1.1 400 Not Found
+   *     {
+   *       "error": "UserBadRequest"
+   *     }
+   */
+
+  /**
+   * @apiDefine UserAlreadyExistsError
+   * @apiError UserAlreadyExists The user already exits.
+   *
+   * @apiErrorExample UserAlreadyExists:
+   *     HTTP/1.1 409 Not Found
+   *     {
+   *       "error": "user already exist"
+   *     }
+   */
