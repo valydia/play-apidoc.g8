@@ -1,8 +1,8 @@
 # play-apidoc.g8
 
-[![Build Status](https://travis-ci.com/valydia/play-apidoc.g8.svg?branch=2.8.x)](https://travis-ci.com/valydia/play-apidoc.g8)
+[![Build Status](https://travis-ci.org/valydia/play-apidoc.g8.svg?branch=2.8.x)](https://travis-ci.org/valydia/play-apidoc.g8)
 
-This template is based on the [play-apidoc.g8](https://travis-ci.com/valydia/play-apidoc.g8) template.  
+This template is based on the [play-scala-seed.g8](https://github.com/playframework/play-scala-seed.g8) template.  
 Generate an play framework service documented with [sbt-apidoc][]
 
 1. [Install sbt](http://www.scala-sbt.org/1.0/docs/Setup.html)
